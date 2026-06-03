@@ -1,0 +1,47 @@
+{
+  "timeOfDay": {
+    "type": "dropdown",
+    "value": 1,
+    "text": "Time of Day",
+    "items": [
+      "Day",
+      "Sunset",
+      "Night",
+      "Fog"
+    ]
+  },
+  "cameraZoom": {
+    "type": "slider",
+    "value": 96,
+    "min": 72,
+    "max": 130,
+    "tick": 59,
+    "text": "Camera Zoom"
+  },
+  "ambientMotion": {
+    "type": "slider",
+    "value": 100,
+    "min": 25,
+    "max": 160,
+    "tick": 136,
+    "text": "Ambient Motion"
+  },
+  "crowdDensity": {
+    "type": "slider",
+    "value": 85,
+    "min": 0,
+    "max": 160,
+    "tick": 161,
+    "text": "Ambient People"
+  },
+  "showTraffic": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Moving Streetcars"
+  },
+  "showHud": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Show Game HUD"
+  }
+}

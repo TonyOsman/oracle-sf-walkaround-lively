@@ -1,0 +1,14 @@
+{
+  "AppVersion": "2.0.7.4",
+  "Title": "Oracle SF Walkaround",
+  "Thumbnail": "thumbnail.png",
+  "Preview": "thumbnail.png",
+  "Desc": "A semi-realistic cartoon videogame-style live wallpaper: walk around a stylized Oracle-themed San Francisco waterfront campus.",
+  "Author": "Codex",
+  "License": "Personal use",
+  "Contact": "",
+  "Type": 1,
+  "Arguments": "--pause-event true",
+  "FileName": "index.html",
+  "IsAbsolutePath": false
+}

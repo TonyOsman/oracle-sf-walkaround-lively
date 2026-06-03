@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="color-scheme" content="dark" />
+    <title>Oracle SF Walkaround</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="game" aria-label="Oracle San Francisco walkaround live wallpaper"></canvas>
+
+    <main class="hud" id="hud">
+      <section class="passport" aria-live="polite">
+        <div class="hud-kicker">SF Waterfront</div>
+        <h1>Oracle Walkaround</h1>
+        <p id="placeName">Redwood Visitor Plaza</p>
+        <div class="status-row">
+          <span id="signalValue">82%</span>
+          <span id="areaValue">Atrium</span>
+          <span id="paceValue">Walk</span>
+        </div>
+      </section>
+
+      <section class="location-card" id="locationCard">
+        <div class="location-dot" aria-hidden="true"></div>
+        <div>
+          <h2 id="hotspotTitle">Redwood Visitor Plaza</h2>
+          <p id="hotspotMeta">Lobby lights, bay air, and moving data streams.</p>
+        </div>
+      </section>
+
+      <section class="minimap" aria-hidden="true">
+        <canvas id="minimap" width="144" height="144"></canvas>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
